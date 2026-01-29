@@ -10,6 +10,6 @@ int main(){
         result = result * 10 + rem;
         n /=10;
     }
-    cout<<"The reversed number of "<<n<<" is: "<<result;
+    cout<<"The reversed number of is: "<<result;
     return 0;
 }
