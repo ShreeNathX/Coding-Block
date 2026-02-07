@@ -6,9 +6,14 @@ int main(){
     cout<<"Enter any number: ";
     cin>>n;
 
-    for(int i=1; i<=n; i++){
-        while(n%i == 0){
-            
+    int i=2;
+    while(i<=n){
+        if(n%i==0){
+            cout<<i<<" ";
+            n/=i;
+        }
+        else{
+            i++;
         }
     }
 }

@@ -9,6 +9,7 @@ int main(){
         rem = n%10;
         result = result * 10 + rem;
         n /=10;
+        cout<<rem<<endl;    
     }
     cout<<"The reversed number of is: "<<result;
     return 0;
