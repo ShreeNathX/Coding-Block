@@ -7,10 +7,7 @@ int main(){
     string a, b;
     cout<<"Enter First String: ";
     getline(cin, a);
-
-    cout<<"Enter Second String: ";
-    getline(cin, b);
-
+    b = a;
     reverse(a.begin(), a.end());
 
     if(a == b){
